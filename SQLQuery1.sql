@@ -1,0 +1,1 @@
+﻿select c.Name Customers from customers c left outer join orders o on c.Id = o.CustomerId where o.CustomerId is NULL
